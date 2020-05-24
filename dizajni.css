@@ -1,0 +1,816 @@
+.brenda{		
+		margin: 80px 100px 200px 100px;
+		border:1px solid none;
+		height: 530px;
+		background-color: #35a6ed;
+		box-shadow: 0 0 20px #28b3bb;
+		border-radius: 15px;
+
+}
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body{
+	width:fit-content;
+	height: 400px;
+
+}
+
+.logo{
+
+		padding-left: 20px;
+		padding-top: 10px;
+		font-size: 22px;
+		color: white;
+		display: inline-block;
+}
+
+
+		.butonat{
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			list-style: none;
+			margin-top: -65px;
+			padding-left: 400px;
+			
+			
+
+		}
+		ul li{
+			
+			display: inline-block;
+			list-style: none;
+			margin-left: 42px;
+			text-align: center;
+
+
+		}
+
+		ul li a{
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+			transition: 0.9s ease;
+
+
+
+		}
+
+		ul li a:hover{
+			background-color:white;
+			color: #056AA2;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+			border-radius: 8px;
+
+
+
+
+		}
+
+		ul li.active a{
+			color: black;
+			background-color: white;
+			color: #056AA2;
+			border-radius: 8px;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+
+
+		}
+
+		.shkrimi{
+
+			margin-left: -300px;
+			margin-top: 100px;
+			width: 430px;
+			
+			font-family: 'Titillium Web', sans-serif;
+			font-weight: bolder;
+			color: white;
+			font-size: 45px;
+
+
+			
+		}
+		.nenteksti{
+
+			font-size: 14px;
+			margin-top: -40px;
+		}
+
+		.mbiteksti{
+			font-size:12px;
+			margin-bottom: -45px;
+
+		}
+
+		.gif{
+			background-image: url('gallery/8139-2.gif');
+			width: 700px;
+			height: 300px;
+			margin-top: -290px;
+			margin-left: 380px;
+
+			
+		}
+
+
+	
+		.slide:hover, .slide:focus {
+		  box-shadow: inset 120px 0 0 0 white;
+		}
+
+
+	
+		.slide {
+		  color:white;
+		 // -webkit-transition: 0.2s;
+		  transition: 0.1s;
+		}
+		.slide:hover, .slide:focus {
+		  border-color: #24daac;
+		  color: #24daac;
+		}
+
+		#body {
+		  
+
+		  justify-content: center;
+		  margin-left: -1217px;
+		  display: flex;
+		   
+		}
+
+		.slide {
+		  background: #24daac;
+		  border: 5px solid #24daac;
+		  margin: 0.5em;
+		  padding: 0.4em 1.8em;
+		  justify-content: center;
+		  display: flex;
+		  font-family: 'Titillium Web', sans-serif;
+		  font-weight: bolder;
+		  border-radius: 20px;
+		  font-size: 15px;
+		  text-decoration:none;
+		}
+
+		html {
+  			scroll-behavior: smooth;
+
+
+		}
+
+		.permbajtja{
+			
+			width: 1131px;
+			margin-top: 190px;
+			height: 780px;
+			border-radius: 20px;
+			display: inline-flex;
+			box-shadow: 0 0 20px #28b3bb;
+			
+			
+
+
+
+		}
+
+		.p1{
+			width: 50%;
+			background-image: linear-gradient(#35a6ed,#24daac);
+			height: 780px;
+			border-bottom-left-radius: 20px;
+			border-top-left-radius: 20px;
+			
+		}
+		
+		.p2{
+			width: 50%;
+			background-color: #eef3f7;
+			height: 780px;
+			border-bottom-right-radius: 20px;
+			border-top-right-radius: 20px;
+		}
+
+
+
+		  .input-icons i { 
+            position: absolute; 
+        } 
+          
+        .input-icons { 
+            width: 90%; 
+            margin-top: 30px; 
+
+
+        } 
+          
+        .icon { 
+            padding: 10px; 
+            color: green; 
+            min-width: 50px; 
+            text-align: center; 
+            
+
+            
+        } 
+          
+        .input-field { 
+            width: 90%; 
+            padding: 10px; 
+            text-align: center; 
+            border:1px solid white;
+            border-radius: 35px;
+
+            
+        } 
+
+		.container {
+		  display: block;
+		  position: relative;
+		  padding-left: 35px;
+		  margin-bottom: 12px;
+		  cursor: pointer;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  color: white;
+		}
+
+		
+		.container input {
+		  position: absolute;
+		  opacity: 0;
+		  cursor: pointer;
+		  height: 0;
+		  width: 0;
+		}
+
+		
+		.checkmark {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  height: 25px;
+		  width: 25px;
+		  background-color: white;
+		  border-radius: 50%;
+		}
+
+		
+		.container:hover input ~ .checkmark {
+		  background-color: #ccc;
+		}
+
+		
+		.container input:checked ~ .checkmark {
+		  background-color: green;
+		}
+
+		
+		.checkmark:after {
+		  content: "";
+		  position: absolute;
+		  display: none;
+		}
+
+		.container input:checked ~ .checkmark:after {
+		  display: block;
+		}
+
+		
+		.container .checkmark:after {
+		  top: 9px;
+		  left: 9px;
+		  width: 8px;
+		  height: 8px;
+		  border-radius: 50%;
+		  background: white;
+		}
+          
+
+         #bodyy {
+		  
+
+		  justify-content: center;
+		  margin-left: 0%;
+		  display: flex;
+		  cursor: pointer;
+		   
+		}
+
+		.slidee:hover, .slidee:focus {
+		  box-shadow: inset 120px 0 0 0 white;
+		}
+
+
+	
+		.slidee {
+		  color:white;
+		  -webkit-transition: 0.25s;
+		  transition: 0.3s;
+		}
+		.slidee:hover, .slide:focus {
+		  border-color: #35a6ed;
+		  color: #35a6ed;
+		}
+
+
+		.slidee {
+		  background: #35a6ed;
+		  border: 5px solid #35a6ed;
+		  margin: 0.5em;
+		  padding: 0.4em 1.8em;
+		  justify-content: center;
+		  display: flex;
+		  font-family: 'Titillium Web', sans-serif;
+		  font-weight: bolder;
+		  border-radius: 20px;
+		  font-size: 15px;
+		  text-decoration:none;
+		}
+
+		#bodyyy{
+		justify-content: center;
+		  margin-left: 0%;
+		  display: flex;
+		  cursor: pointer;
+
+		}
+
+		.contactus{
+			margin-left:-109px; 
+			width: 119.4%;
+			background-color: #056AA2;
+			margin-top: 200px; 
+			height: 80%;
+			display: flex;
+			flex-direction: row;
+			box-shadow: 0 0 20px #28b3bb;
+		}
+
+		.part1{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			margin-top: 80px;
+			
+
+		}	
+
+		.part2{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			margin-top: 80px;
+			
+		}		
+		.part3{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-bottom: 80px;
+			margin-top: 80px;
+			
+		}		
+
+
+
+		.Butoni{	
+			transition: 0.6s;
+			
+			
+			
+		}
+
+		.Butoni1, .Butoni2 , .Butoni3, .Butoni4,.Butoni5, .Butoni6{
+			color: white;
+		}
+
+		.Butoni1:hover, .Butoni2:hover, .Butoni3:hover, 
+		.Butoni4:hover, .Butoni5:hover , .Butoni6:hover{
+			color: #add8e6 ;}
+
+			.p4{
+			
+				text-align: left;
+				color: white;
+				background-color: transparent;
+				margin-left: -100px;
+			}
+			
+
+		
+
+
+
+
+=======
+
+.brenda{		
+		margin: 80px 100px 200px 100px;
+		border:1px solid none;
+		height: 530px;
+		background-color: #35a6ed;
+		box-shadow: 0 0 20px #28b3bb;
+		border-radius: 15px;
+
+}
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body{
+	width:fit-content;
+	height: 400px;
+
+}
+
+.logo{
+
+		padding-left: 20px;
+		padding-top: 10px;
+		font-size: 22px;
+		color: white;
+		display: inline-block;
+}
+
+
+		.butonat{
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			list-style: none;
+			margin-top: -65px;
+			padding-left: 400px;
+			
+			
+
+		}
+		ul li{
+			
+			display: inline-block;
+			list-style: none;
+			margin-left: 42px;
+			text-align: center;
+
+			
+
+
+
+
+		}
+
+		ul li a{
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+			transition: 0.9s ease;
+
+
+
+		}
+
+		ul li a:hover{
+			background-color:white;
+			color: #056AA2;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+			border-radius: 8px;
+
+
+
+
+		}
+
+		ul li.active a{
+			color: black;
+			background-color: white;
+			color: #056AA2;
+			border-radius: 8px;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+
+
+		}
+
+		.shkrimi{
+
+			margin-left: -300px;
+			margin-top: 100px;
+			width: 430px;
+			
+			font-family: 'Titillium Web', sans-serif;
+			font-weight: bolder;
+			color: white;
+			font-size: 45px;
+
+
+			
+		}
+		.nenteksti{
+
+			font-size: 14px;
+			margin-top: -40px;
+		}
+
+		.mbiteksti{
+			font-size:12px;
+			margin-bottom: -45px;
+
+		}
+
+		.gif{
+			background-image: url('gallery/8139-2.gif');
+			width: 700px;
+			height: 300px;
+			margin-top: -290px;
+			margin-left: 380px;
+
+			
+		}
+
+
+	
+		.slide:hover, .slide:focus {
+		  box-shadow: inset 120px 0 0 0 white;
+		}
+
+
+	
+		.slide {
+		  color:white;
+		 // -webkit-transition: 0.2s;
+		  transition: 0.1s;
+		}
+		.slide:hover, .slide:focus {
+		  border-color: #24daac;
+		  color: #24daac;
+		}
+
+		#body {
+		  
+
+		  justify-content: center;
+		  margin-left: -1217px;
+		  display: flex;
+		   
+		}
+
+		.slide {
+		  background: #24daac;
+		  border: 5px solid #24daac;
+		  margin: 0.5em;
+		  padding: 0.4em 1.8em;
+		  justify-content: center;
+		  display: flex;
+		  font-family: 'Titillium Web', sans-serif;
+		  font-weight: bolder;
+		  border-radius: 20px;
+		  font-size: 15px;
+		  text-decoration:none;
+		}
+
+		html {
+  			scroll-behavior: smooth;
+
+
+		}
+
+		.permbajtja{
+			
+			width: 1131px;
+			margin-top: 190px;
+			height: 780px;
+			border-radius: 20px;
+			display: inline-flex;
+			box-shadow: 0 0 20px #28b3bb;
+			
+			
+
+
+
+		}
+
+		.p1{
+			width: 50%;
+			background-image: linear-gradient(#35a6ed,#24daac);
+			height: 780px;
+			border-bottom-left-radius: 20px;
+			border-top-left-radius: 20px;
+			
+		}
+		
+		.p2{
+			width: 50%;
+			background-color: #eef3f7;
+			height: 780px;
+			border-bottom-right-radius: 20px;
+			border-top-right-radius: 20px;
+		}
+
+
+
+		  .input-icons i { 
+            position: absolute; 
+        } 
+          
+        .input-icons { 
+            width: 90%; 
+            margin-top: 30px; 
+
+
+        } 
+          
+        .icon { 
+            padding: 10px; 
+            color: green; 
+            min-width: 50px; 
+            text-align: center; 
+            
+
+            
+        } 
+          
+        .input-field { 
+            width: 90%; 
+            padding: 10px; 
+            text-align: center; 
+            border:1px solid white;
+            border-radius: 35px;
+
+            
+        } 
+
+		.container {
+		  display: block;
+		  position: relative;
+		  padding-left: 35px;
+		  margin-bottom: 12px;
+		  cursor: pointer;
+		  -webkit-user-select: none;
+		  -moz-user-select: none;
+		  -ms-user-select: none;
+		  user-select: none;
+		  color: white;
+		}
+
+		
+		.container input {
+		  position: absolute;
+		  opacity: 0;
+		  cursor: pointer;
+		  height: 0;
+		  width: 0;
+		}
+
+		
+		.checkmark {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  height: 25px;
+		  width: 25px;
+		  background-color: white;
+		  border-radius: 50%;
+		}
+
+		
+		.container:hover input ~ .checkmark {
+		  background-color: #ccc;
+		}
+
+		
+		.container input:checked ~ .checkmark {
+		  background-color: green;
+		}
+
+		
+		.checkmark:after {
+		  content: "";
+		  position: absolute;
+		  display: none;
+		}
+
+		.container input:checked ~ .checkmark:after {
+		  display: block;
+		}
+
+		
+		.container .checkmark:after {
+		  top: 9px;
+		  left: 9px;
+		  width: 8px;
+		  height: 8px;
+		  border-radius: 50%;
+		  background: white;
+		}
+          
+
+         #bodyy {
+		  
+
+		  justify-content: center;
+		  margin-left: 0%;
+		  display: flex;
+		  cursor: pointer;
+		   
+		}
+
+		.slidee:hover, .slidee:focus {
+		  box-shadow: inset 120px 0 0 0 white;
+		}
+
+
+	
+		.slidee {
+		  color:white;
+		  -webkit-transition: 0.25s;
+		  transition: 0.3s;
+		}
+		.slidee:hover, .slide:focus {
+		  border-color: #35a6ed;
+		  color: #35a6ed;
+		}
+
+
+		.slidee {
+		  background: #35a6ed;
+		  border: 5px solid #35a6ed;
+		  margin: 0.5em;
+		  padding: 0.4em 1.8em;
+		  justify-content: center;
+		  display: flex;
+		  font-family: 'Titillium Web', sans-serif;
+		  font-weight: bolder;
+		  border-radius: 20px;
+		  font-size: 15px;
+		  text-decoration:none;
+		}
+
+		#bodyyy{
+		justify-content: center;
+		  margin-left: 0%;
+		  display: flex;
+		  cursor: pointer;
+
+		}
+
+		.contactus{
+			margin-left:-109px; 
+			width: 119.4%;
+			background-color: #056AA2;
+			margin-top: 200px; 
+			height: 80%;
+			display: flex;
+			flex-direction: row;
+			box-shadow: 0 0 20px #28b3bb;
+		}
+
+		.part1{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			margin-top: 80px;
+			
+
+		}	
+
+		.part2{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			margin-top: 80px;
+			
+		}		
+		.part3{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-bottom: 80px;
+			margin-top: 80px;
+			
+		}		
+
+
+
+			.p4{
+			
+				text-align: left;
+				color: white;
+				background-color: transparent;
+				margin-left: -100px;
+			}
+			
+
+		
+
+
+

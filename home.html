@@ -1,0 +1,299 @@
+<!--Genta Osmani-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dizajni.css">
+<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+	<title style="margin-left: 100px"> 
+  E-Health
+</title>
+<link rel="shortcut icon" href="gallery/health-clipart-png-8.png">
+</head>
+<body style="background-image: radial-gradient(white,#24daac);">
+	<div class="brenda">
+
+			<div class= "logo">
+<img src="gallery/health-clipart-png-8.png" width="58px" height="55px"> <p class="buu"; style="margin-top:-50px; padding-left:60px; font-weight: bold">E-Health system</p>
+ 	
+</div>
+
+<div class= "butonat">
+	<ul>
+		<li class="active"> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+		<li> <a href="Publications.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUBLICATIONS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+		<li> <a href="aboutUs.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+		<li> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+	</ul>
+		<div class="shkrimi">
+			<div class="mbiteksti"><br>
+				<!--<script type="text/javascript">
+				var name =prompt("What's your name?", " ");
+				document.write("Hello " + name)
+				</script>-->
+			 </div>
+			<p>Living the easy way</p>
+			<p class="nenteksti">
+ 	eHealth is the use of information and communication technologies (ICT) for health. The eHealth unit works with partners at the global, regional and country level to promote and strengthen the use of ICT in health development, from applications in the field to global governance. </p>
+		</div>
+
+	<div id="body">
+<div class="buttons">
+  <a href="#permb" class="slide">SIGN UP</a>
+  <script>history.scrollRestoration = "manual"</script>
+  </div>
+</div>
+
+	</div>
+	<div class= "gif"></div>
+
+	<div class="permbajtja" id="permb">
+		<div class= "p1">
+			<script type="text/javascript">
+				function validate(){
+					if(document.myForm.Name.value == ""){
+						alert("Please fill the Name and Surname field");
+						document.myForm.Name.focus();
+						return false;
+					}
+					var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+				    var name = document.getElementById('name').value;
+				    if(!regName.test(name)){
+				        alert('Please enter your full name (first & last name)');
+				        document.getElementById('name').focus();
+				        return false;
+				    }else{
+				        return true;
+					}
+					if(document.myForm.Date.value == ""){
+						alert("Please fill the Date field");
+						document.myForm.Date.focus();
+						return false;
+					}
+					if(document.myForm.Nationality.value == ""){
+						alert("Please fill the Nationality field");
+						document.myForm.Nationality.focus();
+						return false;
+					}
+					if(document.myForm.Phone.value == ""){
+						alert("Please fill the Phone field");
+						document.myForm.Phone.focus();
+						return false;
+					}
+					if(isNaN (document.myForm.Phone.value)){
+						alert("Please fill the Phone field with only numbers");
+						document.myForm.Phone.focus();
+						return false;
+					}
+					if((document.myForm.Phone.value.length) != 11){
+						alert("The phone field should contain 10 numbers and sign");
+						document.myForm.Phone.focus();
+						return false;
+					}
+					if(document.myForm.Email.value == ""){
+						alert("Please fill the Email field");
+						document.myForm.Email.focus();
+						return false;
+					}
+					if(document.myForm.idNumber.value == "" ){
+						alert("Please fill the ID Number field");
+						document.myForm.idNumber.focus();
+						return false;
+					}
+					if(isNaN (document.myForm.idNumber.value)){
+						alert("Please fill the ID Number field with only numbers");
+						document.myForm.idNumber.focus();
+						return false;
+					}
+					if(document.myForm.qyteti.value == "City"){
+						alert("Please fill the City field");
+						return false;
+					} 
+					var female = document.getElementById('female').checked;
+					var male = document.getElementById('male').checked;
+					var not = document.getElementById('not').checked;
+
+					if(female==false && male==false && not==false){
+						alert("Please select a gender");
+						return false;
+					}
+						return (true);
+				}
+				function finish(){
+					if(validate()==true){
+		  		alert("We've sent you an email with further instructions on how to activate your account!");
+		  	}
+		  	}
+			</script>
+				 <form name="myForm" onsubmit="return(validate())" style="max-width:450px; margin-left: 84px; margin-top: 50px;"> 
+            
+            <div class="input-icons"> 
+                <i class="fa fa-user icon"> 
+              </i> 
+                <input class="input-field" 
+                       type="text" 
+                       placeholder="Name and Surname"
+                       name="Name"
+                       id="name"> 
+            </div> 
+
+             <div class="input-icons"> 
+                <i class="fa fa-calendar icon"> 
+              </i> 
+                <input class="input-field" 
+                       type="Date"
+                       name="Date"> 
+            </div> 
+  
+  
+            <div class="input-icons"> 
+                <i class="fa fa-flag icon"> 
+              </i> 
+                <input class="input-field" 
+                       type="text"
+                       placeholder="Nationality"
+                       name="Nationality"> 
+            </div> 
+
+                       <div class="input-icons"> 
+                <i class="fa fa-phone icon"> 
+              </i> 
+                <input class="input-field" 
+                       type="tel"
+                       placeholder="Phone(+383)"
+                       name="Phone"> 
+            
+            </div> 
+
+             <div class="input-icons"> 
+                <i class="fa fa-envelope icon"> 
+              </i> 
+                <input class="input-field" 
+                       type="Email"
+                       placeholder="Email"
+                       name="Email"> 
+
+            </div> 
+
+
+           	 <div class="input-icons"> 
+                <i class="fa fa-lock icon"> 
+              </i> 
+                <input class="input-field" 
+                       type="text"
+                       placeholder="ID number"
+                       name="idNumber"> 
+            </div>
+            <div>
+             <select name="qyteti" style="margin-top: 28px; padding:10px; width: 85%;  text-align: center; 
+            border:1px solid white; border-radius: 35px;" >
+
+            <option value = "City" selected>City</option>
+            <option value = "Mitrovice">Mitrovicë</option>
+            <option value = "Prishtine">Prishtinë</option>
+            <option value = "Peje">Pejë</option>
+            <option value = "Gjilan">Gjilan</option>
+            <option value = "Gjakove">Gjakovë</option>
+            <option value = "Prizren">Ferizaj</option>
+            <option style="text-align: center"; value = "Pejë">Pejë</option>
+         </select>
+         </div>
+
+         	<div class="gender" >
+         		
+         		
+
+         		<p style="color: white; font-weight: bold">Gender: </p>
+         		<label class="container">
+				  <input type="checkbox" name="gjinia" id="female">Female
+				  <span class="checkmark"></span>
+				</label>
+
+				<label class="container">
+				  <input type="checkbox" name="gjinia" id="male">Male
+				  <span class="checkmark"></span>
+				</label>
+
+				<label class="container">
+				  <input type="checkbox" name="gjinia" id="not">I prefer not to say
+				  <span class="checkmark"></span>
+				</label>
+
+				
+				<div id="bodyy">
+		<div class="buttons">
+		  
+		<!--  <input onclick="finish()" type="submit" value="Register" class="slidee">-->
+		  <input type="submit" value="Register" class="slidee">
+
+		
+		  </div>
+		</div>
+		</div>
+        </form> 	
+	
+				
+
+		</div>
+
+
+		<div class= "p2">
+			<p style="text-align: center; margin-top: 40px; color:lightblue; font-weight:bolder; font-size: 45px; ">Welcome!</p>
+			<p style="text-align: center; margin-top: -38px; color:lightblue; font-size: 20px; ">Register to use E-Health services</p>
+
+			<img src="gallery/reg.jpg" width="500px" height="500px" style="margin-left: 35px">
+			<div style="color:lightblue; text-align: center; margin-top: -39.5px">...or if you already have an account</div>  <br>
+			<div id="bodyyy">
+		<div class="buttons">
+		  <a href="loginForm.html"class="slidee">Login</a>
+		  </div>
+		</div>
+
+		</div>
+
+	</div>
+	<footer>
+<div class="body contactus">
+	<div class="part1">
+		<img src="https://www.pngkit.com/png/full/17-178789_location-icon-white-fa-icon-map-marker.png" width="60px" height="95px">
+		<p style="font-weight: bold; ">OUR LOCATION </p>
+		<p>
+		Agim Ramadani Pn 1<br>
+		Bregu i Diellit, 10000<br>
+		Pristina, Kosova, Europe<br>
+		+386 (0) 49 123-456<br>
+ </p>
+		
+	</div>
+
+	<div class="part2">
+		<img src="gallery/681-6812966_vector-social-media-icons-png-transparent-png.png" width="210px" height="95px">
+		<p style="font-weight: bold; ">SOCIAL MEDIA</p>
+		<p>
+		<a class="Butoni Butoni1"; href="https://facebook.com/" >Facebook</a><br>
+		<a class="Butoni Butoni1"; href="https://instagram.com/">Instagram</a><br>
+		
+ </p>
+		
+	</div>
+	<div class="part3">
+		<img src="https://www.freepngimg.com/thumb/health/22905-6-health-file.png" width="95px" height="95px">
+		<p style="font-weight: bold; ">HEALTH ORGANIZATIONS</p>
+		<p>
+		<a  class="Butoni Butoni1"; href="https://www.who.int/ehealth/events/en/" >World Health Organization</a><br>
+		<a class="Butoni Butoni1"; href="https://e-estonia.com/solutions/healthcare/e-health-record/">E-Health Estonia</a><br>
+		<a class="Butoni Butoni1"; href="https://www.ehealthinsurance.com/">E-Health Insurance</a><br>
+ </p>
+	</div>
+</div>
+<div class="p4">
+	<p style="display: inline;">E-Health Kosova&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+	© 2020 EHK
+</div>
+</footer>
+ 
+</body>
+
+</body>
+
+</html>

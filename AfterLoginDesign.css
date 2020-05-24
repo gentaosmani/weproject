@@ -1,0 +1,446 @@
+
+.brenda{		
+		margin: 80px 100px 200px 100px;
+		border:1px solid none;
+		height: 1300px;
+		background-color: #35a6ed;
+		box-shadow: 0 0 20px #28b3bb;
+		border-radius: 15px;
+		width: 1131px;
+
+}
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body{
+	width:fit-content;
+}
+
+
+.logo{
+
+		padding-left: 20px;
+		padding-top: 10px;
+		font-size: 22px;
+		color: white;
+		display: inline-block;
+}
+
+
+		.butonat{
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			list-style: none;
+			margin-top: -65px;
+			padding-left: 400px;
+			
+			
+
+		}
+		ul li{
+			
+			display: inline-block;
+			list-style: none;
+			margin-left: 45px;	
+			text-align: center;
+
+			
+
+
+
+
+		}
+
+		ul li a{
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+			transition: 0.9s ease;
+
+
+
+		}
+
+		ul li a:hover{
+			background-color:white;
+			color: #056AA2;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+			border-radius: 8px;
+
+
+
+
+		}
+
+		ul li.active a{
+			color: black;
+			background-color: white;
+			color: #056AA2;
+			border-radius: 8px;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+
+
+		}
+
+		.shkrimi{
+
+			margin-left: -300px;
+			margin-top: 100px;
+			width: 430px;
+			
+			font-family: 'Titillium Web', sans-serif;
+			font-weight: bolder;
+			color: white;
+			font-size: 45px;
+		}
+		.nenteksti{
+
+			font-size: 14px;
+			margin-top: -40px;
+		}
+
+		.mbiteksti{
+			font-size:12px;
+			margin-bottom: -45px;
+
+		}
+
+		.gif{
+			background-image: url('gallery/8139-2.gif');
+			width: 700px;
+			height: 300px;
+			margin-top: -290px;
+			margin-left: 380px;
+
+			
+		}
+
+
+	
+		.slide:hover, .slide:focus {
+		  box-shadow: inset 140px 0 0 0 white;
+		}
+
+
+	
+		.slide {
+		  color:white;
+		  -webkit-transition: 0.25s;
+		  transition: 0.3s;
+		}
+		.slide:hover, .slide:focus {
+		  border-color: #24daac;
+		  color: #24daac;
+		}
+
+		#body {
+		  
+
+		  justify-content: center;
+		  margin-left: -1190px;
+		  display: flex;
+		   
+		}
+
+		.slide {
+		  background: #24daac;
+		  border: 5px solid #24daac;
+		  margin: 0.5em;
+		  padding: 0.4em 1.8em;
+		  justify-content: center;
+		  display: flex;
+		  font-family: 'Titillium Web', sans-serif;
+		  font-weight: bolder;
+		  border-radius: 20px;
+		  font-size: 15px;
+		  text-decoration:none;
+		}
+
+		html {
+  			scroll-behavior: smooth;
+
+
+		}
+
+		.contactus{
+			margin-left:-70px; 
+			width: 108.9%;
+			background-color: #056AA2;
+			margin-top: 200px; 
+			height: 80%;
+			display: flex;
+			flex-direction: row;
+			box-shadow: 0 0 20px #28b3bb;
+		}
+
+		.part1{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-top: 10px;
+
+		}	
+
+		.part2{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-top: 10px;
+		}		
+		.part3{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-top: 10px;
+		}		
+
+
+
+		.Butoni{	
+			transition: 0.6s;
+			
+			
+			
+		}
+
+		.Butoni1, .Butoni2 , .Butoni3, .Butoni4,.Butoni5, .Butoni6{
+			color: white;
+		}
+
+		.Butoni1:hover, .Butoni2:hover, .Butoni3:hover, 
+		.Butoni4:hover, .Butoni5:hover , .Butoni6:hover{
+			color: #add8e6 ;}
+
+			.p4{
+			
+				text-align: left;
+				color: white;
+				background-color: #24daac;
+				width: 100.6%;
+			}
+			
+
+
+
+
+
+
+
+=======
+
+.brenda{		
+		margin: 80px 100px 200px 100px;
+		border:1px solid none;
+		height: 1300px;
+		background-color: #35a6ed;
+		box-shadow: 0 0 20px #28b3bb;
+		border-radius: 15px;
+		width: 1131px;
+
+}
+*{
+	font-family: 'Titillium Web', sans-serif;
+}
+body{
+	width:fit-content;
+}
+
+
+.logo{
+
+		padding-left: 20px;
+		padding-top: 10px;
+		font-size: 22px;
+		color: white;
+		display: inline-block;
+}
+
+
+		.butonat{
+			text-decoration: none;
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			list-style: none;
+			margin-top: -65px;
+			padding-left: 400px;
+			
+			
+
+		}
+		ul li{
+			
+			display: inline-block;
+			list-style: none;
+			margin-left: 45px;	
+			text-align: center;
+
+			
+
+
+
+
+		}
+
+		ul li a{
+			text-decoration: none;
+			color:white;
+			font-size: 14px;
+			transition: 0.9s ease;
+
+
+
+		}
+
+		ul li a:hover{
+			background-color:white;
+			color: #056AA2;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+			border-radius: 8px;
+
+
+
+
+		}
+
+		ul li.active a{
+			color: black;
+			background-color: white;
+			color: #056AA2;
+			border-radius: 8px;
+			box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+
+
+		}
+
+		.shkrimi{
+
+			margin-left: -300px;
+			margin-top: 100px;
+			width: 430px;
+			
+			font-family: 'Titillium Web', sans-serif;
+			font-weight: bolder;
+			color: white;
+			font-size: 45px;
+		}
+		.nenteksti{
+
+			font-size: 14px;
+			margin-top: -40px;
+		}
+
+		.mbiteksti{
+			font-size:12px;
+			margin-bottom: -45px;
+
+		}
+
+		.gif{
+			background-image: url('gallery/8139-2.gif');
+			width: 700px;
+			height: 300px;
+			margin-top: -290px;
+			margin-left: 380px;
+
+			
+		}
+
+
+	
+		.slide:hover, .slide:focus {
+		  box-shadow: inset 140px 0 0 0 white;
+		}
+
+
+	
+		.slide {
+		  color:white;
+		  -webkit-transition: 0.25s;
+		  transition: 0.3s;
+		}
+		.slide:hover, .slide:focus {
+		  border-color: #24daac;
+		  color: #24daac;
+		}
+
+		#body {
+		  
+
+		  justify-content: center;
+		  margin-left: -1190px;
+		  display: flex;
+		   
+		}
+
+		.slide {
+		  background: #24daac;
+		  border: 5px solid #24daac;
+		  margin: 0.5em;
+		  padding: 0.4em 1.8em;
+		  justify-content: center;
+		  display: flex;
+		  font-family: 'Titillium Web', sans-serif;
+		  font-weight: bolder;
+		  border-radius: 20px;
+		  font-size: 15px;
+		  text-decoration:none;
+		}
+
+		html {
+  			scroll-behavior: smooth;
+
+
+		}
+
+		.contactus{
+			margin-left:-70px; 
+			width: 108.9%;
+			background-color: #056AA2;
+			margin-top: 200px; 
+			height: 80%;
+			display: flex;
+			flex-direction: row;
+			box-shadow: 0 0 20px #28b3bb;
+		}
+
+		.part1{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-top: 10px;
+
+		}	
+
+		.part2{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-top: 10px;
+		}		
+		.part3{
+			width: 33.33%;
+			text-align: center;
+			color: white;
+			font-size: 15px;
+			padding-top: 10px;
+		}		
+
+
+
+
+			.p4{
+			
+				text-align: left;
+				color: white;
+				background-color: #24daac;
+				width: 100.6%;
+			}
+			

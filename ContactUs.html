@@ -1,0 +1,190 @@
+<!--Diar Hyseni-->
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ContactUsDesing.css">
+<link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+  <title style="margin-left: 100px"> 
+  E-Health
+</title>
+<link rel="shortcut icon" href="gallery/health-clipart-png-8.png">
+</head>
+<body style="background-image: radial-gradient(white,#24daac); height: 300px;">
+  <div class="brenda">
+
+      <div class= "logo">
+<img src="gallery/health-clipart-png-8.png" width="58px" height="55px"> <p class="buu"; style="margin-top:-50px; padding-left:60px; font-weight: bold">E-Health system</p>
+  
+</div>
+<header>
+<div class= "butonat">
+  <ul>
+    <li> <a href="home.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+    <li> <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PUBLICATIONS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+    <li> <a href="aboutUs.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ABOUT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+    <li class="active"> <a href="ContactUs.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONTACT US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+    
+  </ul>
+  </div>
+</header>
+        <br>
+        <div style="margin-left: 25px;">
+            <div class="title1">
+                <h1>Contact Information</h1>
+            </div>
+            <div class="Contact1">
+               <h2>Media / Press and Conferences</h2>
+                <h4>Email your enquiries to <A HREF="mailto:press@ehealth.al">press@ehealth.al</A> or call:<br> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kosovo :    +383 44 673 237<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Albania:    + 355 4 83 27 050<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Macedonia:  + 389 2 54 12 929</h4>
+               </div>
+            </div>
+            <div class="Contact2">
+                <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+            </div>
+            
+            <div class="ContactUs">
+               
+                <div class="Mesazhi">
+                <script>
+                 function validate(){
+					if(document.myForm.Name.value == ""){
+						alert("Please fill the Name and Surname field");
+						document.myForm.Name.focus();
+						return false;
+					}
+					var regName = /^[a-zA-Z]+ [a-zA-Z]+$/;
+				    var name = document.getElementById('name').value;
+				    if(!regName.test(name)){
+				        alert('Please enter your full name (first & last name)');
+				        document.getElementById('name').focus();
+				        return false;
+				    }else{
+				        alert('Valid name given.');
+				        return true;
+                    }
+                      /*if(document.myForm.email.value==""){
+                          alert("Sheno email-in tuaj");
+                          document.myForm.email.focus();
+                          return false;
+                      }*/if(document.myForm.mesazhi.value=="" || document.myForm.mesazhi.value.length <= 100){
+                          alert("Sheno mesazhin-in tuaj (max 100)");
+                          document.myForm.mesazhi.focus();
+                          return false;
+                      }
+                  }
+
+                      
+              </script>
+              <div style="margin-top: -20px">
+              <form action="#" name="myForm" onsubmit="return(validate())">
+              <h4 style="color: black; margin-bottom: 3%;">Name and Surname:</h4>
+              <input type="text" name="Name" style="margin-top: -5%; padding:10px; width: 100%;  text-align: center; 
+              border:1px solid white; border-radius: 15px;"/>
+              <h4 style="color: black;margin-bottom: 3%;margin-top: 3%">Email:</h4>
+              <input type="text" name="email" style="margin-top: -5px; padding:10px; width: 100%;  text-align: center; 
+              border:1px solid white; border-radius: 15px;" required="required" data-validation="email" data-validation-error-msg="Sheno nje email te sakte!"/>
+              <h4 style="color: black;margin-bottom: 3%;margin-top: 3%">Message:</h4>
+              <textarea type="text" name="mesazhi" style="margin-top: -5px; padding:10px;  width: 180%; height: 70px;
+              border:1px solid white; border-radius: 15px; white-space: nowrap;" required="required" ></textarea>
+              <br>
+              <br>
+                  <div id="bodyy">
+    <div class="buttons" style="margin-top: -20px">
+      
+      <input type="submit" value="Send" class="slidee">
+
+    
+      </div>
+    </div>
+
+             
+              </form>
+              </div>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+                <script>
+    $.validate({
+        form: '#registration'
+    });
+  </script>
+            </div>
+          </div>
+       
+
+       
+       <div class="pjesa2">
+            <hr>
+            <br>
+            <div class="title2">
+                <h1>Locations (Offices)</h1>
+            </div>
+            <div class="Contact3">
+                <h2>Prishtina <img src="gallery/pin.png" width="25px" height="25px"></h2>
+                <h4><br> <br>
+                    Rruga "Agim Ramadani",<br><br>
+                    Nr.25,<br><br>
+                    Prishtina 10000.</h4>
+            </div>
+            <div class="Contact4">
+                <h2>Mitrovica</h2> <img src="gallery/pin.png" width="25px" height="25px"><br>
+                <h4><br> <br>
+                    Rruga "Mbretresha Teute",<br><br>
+                    Nr.16,<br><br>
+                    Mitrovice 40000.</h4>
+            </div>
+            <div class="Map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.843074488287!2d21.158608816001596!3d42.64348662514689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd725b95c5b659fb!2sSpitali%20Amerikan!5e0!3m2!1sen!2s!4v1590188080746!5m2!1sen!2s" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="MoreInfo" style="margin-top: 80px; margin-left: -135px">
+                <h2>More Info -> info@ehealth.al</h2> 
+            </div>
+            <div class="MoreInfo2">
+                <h2>More Info -> info@ehealth.al</h2> 
+            </div>
+            
+        </div>
+    </div></body>
+<footer>
+<div class="body contactus">
+  <div class="part1">
+    <img src="https://www.pngkit.com/png/full/17-178789_location-icon-white-fa-icon-map-marker.png" width="60px" height="95px">
+    <p style="font-weight: bold; ">OUR LOCATION </p>
+    <p>
+    Agim Ramadani Pn 1<br>
+    Bregu i Diellit, 10000<br>
+    Pristina, Kosova, Europe<br>
+    +386 (0) 49 123-456<br>
+ </p>
+    
+  </div>
+
+  <div class="part2">
+    <img src="gallery/681-6812966_vector-social-media-icons-png-transparent-png.png" width="210px" height="95px">
+    <p style="font-weight: bold; ">SOCIAL MEDIA</p>
+    <p>
+    <a class="Butoni Butoni1"; href="https://facebook.com/" >Facebook</a><br>
+    <a class="Butoni Butoni1"; href="https://instagram.com/">Instagram</a><br>
+    
+ </p>
+    
+  </div>
+  <div class="part3">
+    <img src="https://www.freepngimg.com/thumb/health/22905-6-health-file.png" width="95px" height="95px">
+    <p style="font-weight: bold; ">HEALTH ORGANIZATIONS</p>
+    <p>
+    <a  class="Butoni Butoni1"; href="https://www.who.int/ehealth/events/en/" >World Health Organization</a><br>
+    <a class="Butoni Butoni1"; href="https://e-estonia.com/solutions/healthcare/e-health-record/">E-Health Estonia</a><br>
+    <a class="Butoni Butoni1"; href="https://www.ehealthinsurance.com/">E-Health Insurance</a><br>
+ </p>
+  </div>
+</div>
+<div class="p4">
+  <p style="display: inline; color: white">E-Health Kosova&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;© 2020 EHK</p>
+  
+</div>
+</footer>
+ </body>
+</html>
